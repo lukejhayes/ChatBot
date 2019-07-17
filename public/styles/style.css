@@ -1,0 +1,78 @@
+.jumbotron-fluid {
+    background: rgb(1, 100, 1);
+    padding: 1%;
+    margin-bottom:2%;
+}
+.box {
+    background:  #76c1d4;
+    color: black;
+}
+
+.my-footer {
+    /* text-align: center; */
+    background-color: #101357;
+    color: #acb7ae;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* width: 100%; */
+    padding:10px;
+    height: 50px;
+    margin-top: 2%;
+    /* display: block; */
+}
+.card-header{
+    text-align: center;
+    background-color: #101357;
+    color:#acb7ae;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#messageContainer{
+    /* look up overflow */
+    height: 250px;
+    /* display: block; */
+}
+body{
+    background-color: #F0E6EF;
+}
+span {
+    font-family: 'Mountains of Christmas', cursive;
+    filter: brightness(300%);
+    filter: drop-shadow(10px 10px 5px black);
+}
+h1 {
+    text-align: center;
+    color: rgb(139, 247, 17);
+    font-weight: bolder;
+}
+h2 {
+    text-align: center;
+    color: green;
+    font-weight: 900;
+    border-left: 15px solid green;
+    border-right: 15px solid green;
+    border-bottom: 15px solid green;
+    border-top: 15px solid green;
+    /* filter: brightness(300%);
+    filter: drop-shadow(5px 5px 2px black); */
+}
+
+.golf-logo {
+    height: 70px;
+}
+
+@media (max-width: 767.98px){
+    .jumbotron-fluid {
+        height: 100px;
+        padding: 0%;
+        margins: 0%;
+    }
+    .golf-logo{
+        height: 40px;
+    }
+
+    .header-text {
+        font-size: 12px;
+    }
+}
