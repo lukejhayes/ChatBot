@@ -1,0 +1,33 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Personal slack bot for our class workspace. # Build Status We will have the project deployed in Github, Heroku, and Travis CI. # Code Style The Languages and Frameworks we are using are as follows. Html, CSS, Javascript, node.js, json, materialize, jquery, travis.yml, mysql,react.js, giphyAPI, API.ai, IBM's watson. # Features Ability for the User to choose between a menu of automated responses andn custom responses as well. Ability fo the bot to make reccomendations based off the users input. Ability for the user to input his/her email, and recieve a recap of their convo in their inbox.",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "orm": "^5.0.4",
+    "sequelize": "^5.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukejhayes/ChatBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukejhayes/ChatBot/issues"
+  },
+  "homepage": "https://github.com/lukejhayes/ChatBot#readme"
+}
