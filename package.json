@@ -11,7 +11,7 @@
     "express": "^4.17.1",
     "mysql2": "^1.6.5",
     "orm": "^5.0.4",
-    "sequelize": "^5.10.1"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {
     "eslint": "^6.0.1"
